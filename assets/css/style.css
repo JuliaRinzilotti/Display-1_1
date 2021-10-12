@@ -1,0 +1,32 @@
+
+
+
+body {
+    background-color: grey;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: "Helvetica Neue";
+}
+
+body p {
+    background-color:black;
+    width: 500px;
+    margin: 10vh auto;
+    padding: 5vh 5vw; 
+}
+
+body p:hover {
+    background: rgb(67, 67, 105); 
+}
+
+body p:hover + img {
+    display: block;
+}
+
+img {
+    width: 25vw;
+    display: none;
+    margin: 0 auto;
+}
